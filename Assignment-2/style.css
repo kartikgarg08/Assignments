@@ -1,0 +1,67 @@
+body {
+    background-color: burlywood;
+}
+
+.wrapper {
+    background-color: gainsboro;
+    border-radius: 50px;
+}
+
+#phonebook {
+    background-color: beige;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    position: relative;
+    z-index: 1;
+    text-shadow:goldenrod 5px 6px 7px;
+}
+
+#phonebook span {
+    letter-spacing: .2em;
+    line-height: 3rem;
+    font-size: 1.2em;
+    font-weight: 1000;
+}
+
+.list {
+    margin-top: 10px;
+}
+
+dt {
+    background-color: khaki;
+    position: sticky;
+    top: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+dt span {
+    color: midnightblue;
+}
+
+dd::before {
+    content: "\260E";
+}
+dd {
+    padding: 5px;
+    letter-spacing: .3em;
+    line-height: 2rem;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+hr {
+    background-color: black;
+    height: 3px;
+}
+ 
+p {
+    font-size: 15px;
+    text-align: center;
+}
