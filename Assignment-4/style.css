@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#title {
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+ul {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    padding: 0;
+    width: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+li {
+    text-transform: uppercase;
+    display: inline;
+    padding: 20px 10px;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+@media screen and (max-width:800px) {
+    nav,ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Navbar css ends */
+
+.carousel {
+    justify-content: space-evenly;
+    position: relative;
+    margin: 50px auto;
+    width: 90vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(104, 104, 104);
+    overflow: hidden;
+}
+
+#pic {
+    position: relative;
+    height: 90vh;
+    width: 500%;
+    animation: 30s carousel infinite;
+}
+
+.carousel #pic img {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+@keyframes carousel {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+
+}
+
+/* pictures css ends here */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-top: 30px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#name {
+    margin: 0px 10px;
+    padding: 0;
+}
+
+figure {
+    margin: 10px;
+    width: 400px;
+    height: fit-content;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(104, 104, 104);
+}
+
+figure:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+figure img {
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    border-radius: 5px 5px 0px 0px;
+}
+
+figcaption p {
+    padding: 0px 10px 10px;
+    font-weight: 300;
+}
+
+/* Our best cuisine */
+
+footer {
+    color: white;
+    background-color: rgb(20, 18, 18);
+    height: 50px;
+    padding: 40px;
+    text-align: center;
+    letter-spacing: .3em;
+}
