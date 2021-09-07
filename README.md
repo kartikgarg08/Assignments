@@ -25,7 +25,7 @@ https://zen-mccarthy-f6e191.netlify.app/
 
 
 # Assignment - 6
-ToDO List
+ToDo List
 
 https://clever-rosalind-b3157b.netlify.app/
 
