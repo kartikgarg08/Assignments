@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(236, 236, 236); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+body{
+  background-color: rgb(27, 27, 27);
+}
+
+.header{
+  color:rgb(121, 15, 192);
+  font-size: 3rem;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+}
+
+.fa-plus-circle{
+  color:rgb(219, 47, 162) ;
+  font-size:30px;
+
+}
+.search-btn{
+  
+  margin-left:10px;
+  text-decoration: none;
+  outline: none;
+  height: auto;
+  width:auto;
+  background-color:rgb(219, 47, 162) ;
+  background-color:transparent;
+  text-align: center;
+  color:white;
+  border:none;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.fa-plus-circle:hover{
+ color: rgba(199, 39, 146, 0.788);
+}
+.search-input{
+  text-decoration: none;
+  outline: none;
+  height:29px;
+  width:230px;
+  background-color:transparent;
+  border: 2px solid rgba(199, 39, 146, 0.788);
+  border-radius:10px;
+  text-align:center;
+  color:white;
+}
+
+.container{
+  
+  width:500px;
+  margin:20px auto;
+  height:450px;
+  border-radius:30px;
+  border:3px solid rgb(121, 15, 192);
+  overflow:auto;
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  overflow:auto;
+}
+.list-item{
+  color:white;
+  width:90%;
+  display: flex; 
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+}
+.item{
+  /* background-color: red; */
+  width:70%;
+  height:40px;
+  justify-content: center;
+  align-items: center;
+  padding-top:20px;
+  overflow:auto;
+
+}
+.btns{
+  /* background-color: yellow; */
+  width:30%;
+  height:40px;
+  justify-content: center;
+  align-items: base;
+  padding-top:20px;
+}
+
+.list{
+  color:white;
+}
+
+.color1{
+  background: #FF0099;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.color2{
+  background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.color3{
+  background: #ec008c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.color4{
+  background: #667db6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.color5{
+  background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.color6{
+  background: #C33764;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.color7{
+  background: #D38312;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.icon{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 500px){
+  .container{
+    width: 320px;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  .list-item{
+    width:100%;
+    margin-left:-16px;
+  }
+  .btns{
+    width:40%;
+  }
+}
